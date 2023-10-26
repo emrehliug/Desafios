@@ -1,0 +1,31 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+        double A, B, C, pi;
+        double triangulo, circulo, trapezio, quadrado, retangulo;
+        
+        pi = 3.14159;
+        int number;
+        Double.TryParse(Console.ReadLine(), out A);
+        Double.TryParse(Console.ReadLine(), out B);
+        Double.TryParse(Console.ReadLine(), out C);
+        
+        
+        triangulo = (A * C) / 2;
+        circulo = (C * C) * pi;
+        trapezio = ((A + B) * C) / 2;
+        quadrado = (B * B);
+        retangulo = (A * B);
+        
+        Console.WriteLine($"TRIANGULO: {triangulo}");
+        Console.WriteLine($"TRIANGULO: {circulo}");
+        Console.WriteLine($"TRIANGULO: {trapezio}");
+        Console.WriteLine($"TRIANGULO: {quadrado}");
+        Console.WriteLine($"TRIANGULO: {retangulo}");
+
+    }
+
+}
